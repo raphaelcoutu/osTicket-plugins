@@ -11,10 +11,10 @@ return array(
     'url' =>            'http://www.osticket.com/plugins/auth/ldap',
     'plugin' =>         'authentication.php:LdapAuthPlugin',
     'requires' => array(
-        "pear-pear.php.net/net_ldap2" => array(
+        "pear/net_ldap2" => array(
             "version" => "*",
             "map" => array(
-                'pear-pear.php.net/net_ldap2' => 'include',
+                'pear/net_ldap2' => 'include',
             ),
         ),
     ),
